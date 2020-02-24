@@ -130,6 +130,22 @@ Content-Type: application/json
 }
 ```
 
+#### Sample Request / Response (cURL)
+
+    curl -i -X POST -H 'Content-Type: application/json' -d '{"currency": "USD", "amount": 100.0}' http://localhost:8000/convert
+    
+```json
+{
+    "status": "string",
+    "rates": {
+        "currency": "string",
+        "USD": "float",
+        "RUB": "float"
+    },
+    "date": "timestamp"
+}
+```
+
 
 ### error_response
 
