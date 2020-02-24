@@ -25,6 +25,7 @@ To stop the server `CTRL + C`
 
 ### Load
 Pull the docker container from the docker hub
+    
     docker pull yash3498/currencyconverter:latest
 
 Execute
